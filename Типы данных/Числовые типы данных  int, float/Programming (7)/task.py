@@ -1,1 +1,6 @@
-# put your python code here
+# Напишите программу, которая находит наименьшее и наибольшее из пяти чисел.
+
+number = [int(input()) for _ in range(5)]
+
+print('Наименьшее число =', min(number))
+print('Наибольшее число =', max(number))
