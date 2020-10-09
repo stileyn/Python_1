@@ -1,1 +1,4 @@
-# put your python code here
+# Дано положительное действительное число. Выведите его первую цифру после десятичной точки.
+
+number = float(input())
+print(int(number * 10) % 10)
