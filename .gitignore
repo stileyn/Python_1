@@ -1,0 +1,6 @@
+*.txt
+*.yml
+.idea/
+venv/
+*.html
+*.yaml
