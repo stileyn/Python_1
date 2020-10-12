@@ -1,1 +1,7 @@
-# put your python code here
+# Дано предложение и количество раз которое его надо повторить. Напишите программу,
+# которая повторяет данное предложение нужное количество раз.
+
+stroka, number = input(), int(input())
+
+for _ in range(number):
+    print(stroka)
