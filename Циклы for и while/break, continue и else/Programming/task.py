@@ -1,1 +1,11 @@
-# put your python code here
+# На вход программе подается число n>1. Напишите программу, которая выводит его наименьший отличный от 1 делитель.
+
+n = int(input())
+
+for i in range(1, n + 1):
+    if i == 1:
+        continue
+    if n % i == 0:
+        break
+
+print(i)
