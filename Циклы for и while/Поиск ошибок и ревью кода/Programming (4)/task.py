@@ -1,4 +1,6 @@
 n = int(input())
+a = -1
 while n > 0:
-    n %= 10
-print(n)
+    a = n % 10
+    n //= 10
+print(a)
