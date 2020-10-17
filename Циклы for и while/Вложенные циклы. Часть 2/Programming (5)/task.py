@@ -3,9 +3,10 @@ from math import factorial
 
 n = int(input())
 summa = 0
-
+factor = 1
 for i in range(1, n + 1):
     fact = factorial(i)
     summa += fact
 
 print(summa)
+
