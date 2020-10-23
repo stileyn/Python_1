@@ -3,7 +3,4 @@
 
 s = input()
 
-if s[:] == s[::-1]:
-    print('YES')
-else:
-    print('NO')
+print('YES' if s == s[::-1] else 'NO')
