@@ -1,1 +1,6 @@
-# put your python code here
+# На вход программе подается строка текста. Напишите программу, которая проверяет, что строка заканчивается
+# подстрокой .com или .ru.
+
+s = input()
+
+print('YES' if s.endswith('.com') or s.endswith('.ru') else 'NO')
