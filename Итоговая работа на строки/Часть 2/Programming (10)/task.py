@@ -3,7 +3,8 @@
 # «h».
 
 s = input()
-q = s[s.find('h') + 1:s.rfind('h')]
+q = s.find('h')
+w = s.rfind('h')
+print(s[:q] + s[w:q:-1] + s[w:])
 
-print(s[:s.find('h') + 1] + q[::-1] + s[s.rfind('h'):])
 
