@@ -2,8 +2,6 @@
 # то есть символы с индексами 0, 3, 6, ....
 
 s = input()
-t = ''
 for i in range(len(s)):
     if i % 3 != 0:
-        t = t + s[i]
-print(t)
+        print(s[i], end='')
