@@ -1,2 +1,2 @@
 s = 'Python rocks!'
-print()
+print(s[1:5])
