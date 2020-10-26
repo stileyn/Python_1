@@ -4,5 +4,5 @@
 n = int(input())
 s = list()
 for i in range(97, n + 97):
-    s += list(chr(i))
+    s += chr(i)
 print(s)
