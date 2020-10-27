@@ -1,1 +1,3 @@
-# put your python code here
+s = input()
+words = s.split()
+print(*words, sep="\n")
