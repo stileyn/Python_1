@@ -10,7 +10,8 @@ for _ in range(n):
 
 k = int(input())
 
-for i in range(len(a)):
-    if len(a[i]) >= k:
-        b += a[i][k - 1]
+for i in a:
+    if len(i) >= k:
+        b += i[k - 1]
 print(b)
+
